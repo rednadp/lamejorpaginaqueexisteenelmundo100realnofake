@@ -49,3 +49,7 @@ button:hover {
 #rojo {
     color: rgb(255, 89, 89);
 }
+
+fieldset {
+    text-align: left;
+}

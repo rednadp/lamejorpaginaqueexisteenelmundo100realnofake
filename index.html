@@ -16,11 +16,12 @@
             <p><strong>Hola.</strong> Esto es un <em>texto</em>  de prueba que se está utilizando para rellenar esta página web, por lo que lo voy a alagarlo todo lo posible para que parezca que hay algo de sentido escrito</p>
             <section>
                 <h2>Experiencia</h2>
-                <ul>
+                <ol start="10" reversed>
                     <li>Pin pong</li>
                     <li>Pin pong 2</li>
                     <li>Pin pong 3</li>
                 </ul>
+                <a href="./pin-pong/index.html">Jugar</a>
             </section>
             <section title="tonto el que lo lea">
                 <button id="boton-especial">
@@ -29,10 +30,25 @@
                 <p>Por cierto, es boton anterior lo has pulsado <strong id="texto">0</strong> veces :)</p>
             </section>
             <aside>
-                <img id="Avatar" class="img" title="Foto to guapa" src="./images/foto ejemplo-unsplash.jpg" alt="Imagen de flamenco">
+                <img loading="lazy" id="Avatar" class="img" title="Foto to guapa" src="./images/foto ejemplo-unsplash.jpg" alt="Imagen de flamenco">
                 <br>
                 <a href="https://google.com" target="_blank" rel="noreferrer">Link útil</a>
+                <a href="tel:+34175649">Lamar a mi abuela</a>
             </aside>
+            <section>
+                <h1>Formulario de comentarios</h1>
+                <form method="post" action="/">
+                    <fieldset>
+                        <legend>Información personal</legend>
+
+                        <label for="name">Nombre:</label>
+                        <input type="text" id="name" name="name" placeholder="Antonio">
+                        <br>
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" placeholder="example@gmail.com">
+                    </fieldset>
+                </form>
+            </section>
         </main>
         <script src="./app.js"></script>
     </body>
