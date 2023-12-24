@@ -1,0 +1,16 @@
+{
+"companyName": "pepe",
+"productName": "Pin pong",
+"productVersion": "0.7",
+"dataUrl": "webgl.data.unityweb",
+"wasmCodeUrl": "webgl.wasm.code.unityweb",
+"wasmFrameworkUrl": "webgl.wasm.framework.unityweb",
+"graphicsAPI": ["WebGL 2.0","WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Light",
+"backgroundColor": "#907F83",
+"cacheControl": {"default": "must-revalidate"},
+"developmentBuild": false,
+"multithreading": false,
+"unityVersion": "2019.4.40f1"
+}
